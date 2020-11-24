@@ -18,7 +18,7 @@ from bot.get_cfg import get_config
 
 
 class Localisation:
-    START_TEXT = "Hello, \n\nThis is a Video Compress Bot \n\n<b>Please sent me any Telegram big file I Will compress into small file</b> \n\n/help for more details... \n\nMade by :@Sunisk & @Physic_hybrid"
+    START_TEXT = "Hello, \n\nUser \n\n<b>I am a Telegram Video Compress Bot. Please sent me any Telegram big file I Will compress as small file .</b> \n\n/help for more details... \n\n<b>Made by :@Sunisk & @Physic_hybrid</b>"
    
     ABS_TEXT = " Please don't be selfish."
     
