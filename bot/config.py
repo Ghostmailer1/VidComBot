@@ -11,8 +11,8 @@ class Config(object):
     # array to store the channel ID who are authorized to use the bot
     AUTH_USERS = set(
         int(x) for x in get_config(
-            "",
-            should_prompt=True
+            "AUTH_USERS",
+            should_prompt=False
         ).split()
     )
     # the download location, where the HTTP Server runs
